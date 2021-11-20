@@ -78,8 +78,4 @@ else
     migrate_db
 fi
 
-if [ -n "$KIBANA_RESET_DASHBOARDS" ]; then
-    /opt/scirius/bin/reset_dashboards.sh &
-fi
-
 start
